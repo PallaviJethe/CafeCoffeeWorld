@@ -1,0 +1,43 @@
+.text-block {
+    font-size: xx-large;
+    font-family: cursive;
+    font-weight: bold;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 150px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.66);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+.secondarytxt{
+    font-size: large;
+}
+
+.order{
+    margin-top: 50px;
+    text-align: center;
+}
+.orderhere{
+    color: aliceblue;
+    padding: 20px;
+   /* background-color: rgba(240, 248, 255, 0.712); */
+   font-size: x-large;
+   font-family: cursive;
+
+}
+.orderimg{
+    text-align: center;
+    margin-top: 50px;
+}
+
+aside{
+    width: 50%;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-top: 30px;
+    padding-right: 15%;
+    float: right;
+    font-style: italic;
+  }

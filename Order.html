@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="order.css">
+    <link rel="icon" type="image/x-icon" href="/images/coffeeicon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Order Now</title>
+</head>
+<body>
+    <header id="header">
+        <div class="logo" id="logo">
+            <a href="Home.html"><img class="logoimg" src="/images/coffeelogo.jpg" alt="cafe coffee world" height="150" width="150"></a>
+        </div>
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <a href="#home" class="active">Welcome to CCW</a>
+            <div id="myLinks">
+                <a href="Home.html">Home</a>
+                <a href="Menu.html">Menu</a>
+                <a href="Contact.html">Contact</a>
+                <a href="About.html">About Us</a>
+            </div>
+ 
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <script type="text/javascript">function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+              x.style.display = "none";
+            } else {
+              x.style.display = "block";
+            }
+          }</script>
+    <br><br><br>
+    </header>
+
+    <div class="abtusimg">
+        <img src="/images/coffee.png" alt="Order here" style="height:100%; width: 100%;">
+        
+        <div class="text-block">
+            <h4>Order Now</h4>
+            <p class="secondarytxt">Get freshly brewed coffee, delicious snacks and sweet treats delivered to your homes.</p>
+        </div>
+    </div>
+    <hr>
+
+    <div class="order">
+        <a href="https://www.zomato.com/"><img src="/images/zomato.png" alt="order on zomato" style="width:250px; height: 200px;"></a>
+        <aside>            
+            <span class="orderhere">Start your order via the zomato app or website</span><br>
+            <span class="orderhere"><a href="https://www.zomato.com/">Order Online</a></span><br><br><br>
+        </aside>
+        <a href="https://www.swiggy.com/"><img src="/images/swiggy.png" alt="Order on Swiggy" style="height:200px; height: 200px;"></a>
+        <aside>            
+            <span class="orderhere">Start your order via the swiggy app or website</span><br>
+            <span class="orderhere"><a href="https://www.swiggy.com/">Order Online</a></span><br><br><br>
+        </aside>                 
+    </div>
+
+
+
+    <br><br><br>
+    <footer class="socilmedia" id="socialmedia">
+        <a href="https://www.facebook.com/CoffeeWorldIndia/" class="fa fa-facebook"></a>
+        <a href="https://mobile.twitter.com/worldcoffeecafe" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/worldcoffeecafeavl/?hl=en" class="fa fa-instagram"></a>
+    </footer>
+    
+</body>
+</html>

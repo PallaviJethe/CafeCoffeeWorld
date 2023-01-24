@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="menu.css">
+
+    <link rel="icon" type="image/x-icon" href="/images/coffeeicon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>CCW Menu</title>
+</head>
+<body>
+    <header id="header">
+        <div class="logo" id="logo">
+            <a href="Home.html"><img class="logoimg" src="/images/coffeelogo.jpg" alt="cafe coffee world" height="150" width="150"></a>
+        </div>
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <a href="#home" class="active">Welcome to CCW</a>
+            <div id="myLinks">
+                <a href="Home.html">Home</a>
+                <a href="Order.html">Order</a>
+                <a href="Contact.html">Contact</a>
+                <a href="About.html">About Us</a>
+            </div>
+ 
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <script type="text/javascript">function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+              x.style.display = "none";
+            } else {
+              x.style.display = "block";
+            }
+          }</script>
+    <br><br><br>
+    </header>
+
+    <div class="mainmenucofee">
+        <span class="coffee">Coffee</span><br><br>
+        <img src="/images/menu.png" alt="Main Menu card" class="menucard">
+        <hr>
+        <span class="coffee">Other Specialities</span><br><br>
+    </div>
+    <div class="offers">
+        <div class="one"><img class="secmenu" src="/images/mnu.jpg" alt="tea menu" ></div>
+        <div class="two"><img class="secmenu" src="/images/mnu5.jpg" alt="cold beverages menu"></div>
+        <!-- <div class="three">Section 3</div> -->
+    </div>
+
+
+
+
+    <br><br><br>
+    <footer class="socilmedia" id="socialmedia">
+        <a href="https://www.facebook.com/CoffeeWorldIndia/" class="fa fa-facebook"></a>
+        <a href="https://mobile.twitter.com/worldcoffeecafe" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/worldcoffeecafeavl/?hl=en" class="fa fa-instagram"></a>
+    </footer>
+    
+</body>
+</html>

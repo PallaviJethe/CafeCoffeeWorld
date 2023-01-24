@@ -1,0 +1,21 @@
+/* body{
+
+} */
+.abtusimg{
+   max-width: 100%;
+   height: auto;
+   border-radius: 10px;
+}
+.abtp1{
+    color: white;
+    padding: 20px;
+    background-color: rgba(99, 103, 106, 0.445);
+    text-align: center;
+    font-size: larger;
+    font-family: cursive;
+}
+.mail{
+    text-align: center;
+    background-color: rgba(182, 208, 208, 0.326);
+    padding: 15px;
+}

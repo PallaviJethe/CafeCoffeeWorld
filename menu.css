@@ -1,0 +1,43 @@
+/* body{
+    
+} */
+.coffee{
+    color: azure;
+    font-size: xx-large;
+    font-family: cursive;
+}
+.mainmenucofee{
+    text-align: center;
+}
+hr{
+  margin-top: 5.5em;
+  margin-bottom: 3.5em;
+  border-width: 3px;
+}
+.offers
+{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+    width:100%;
+}
+.one
+{
+    background-color:limegreen;    
+    float: left;  
+}
+.two
+{
+    background-color:orange;
+    float: left;
+}
+/* .three
+{
+    background-color: hotpink;
+    float: left;
+} */ 

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="home.css">
+    <link rel="icon" type="image/x-icon" href="/images/coffeeicon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Cafe Coffee World</title>
+</head>
+<body>
+    <header id="header">
+        <div class="logo" id="logo">
+            <a href="Home.html"><img class="logoimg" src="/images/coffeelogo.jpg" alt="cafe coffee world" height="150" width="150"></a>
+        </div>
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <a href="#home" class="active">Welcome to CCW</a>
+            <div id="myLinks">
+                <a href="Menu.html">Menu</a>
+                <a href="Order.html">Order</a>
+                <a href="Contact.html">Contact</a>
+                <a href="About.html">About Us</a>
+            </div>
+ 
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <script type="text/javascript">
+        function myFunction() 
+        {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+              x.style.display = "none";
+            } else {
+              x.style.display = "block";
+            }
+        }
+        </script>
+    <br><br><br>
+
+    </header>
+    
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="/images/coffemenu.jpg" alt="coffee world" class="pic" style="width:100%;">
+         </div>
+        <div class="mySlides fade">
+            <img src="/images/coffeetype.jpg" alt="coffee world" class="pic" style="width:100%;">
+        <div class="text"> Cafe Coffee World </div> 
+        </div>
+        <div class="mySlides fade">
+            <img src="/images/tea typess.jpg" alt="coffee world"  class="pic"  style="width:100%">
+        <div class="text"> Cafe Coffee World </div> 
+        </div>
+        <div class="mySlides fade">
+            <img src="/images/types-of-tea-flavors.jpg" alt="coffee world" class="pic" style="width:100%">
+        <div class="text"> Cafe Coffee World </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+    <br><br>
+        
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+    </div><br><br><br>
+    <script type="text/javascript">
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        function plusSlides(n) 
+        {
+            showSlides(slideIndex += n);
+        }
+        function currentSlide(n) 
+        {
+            showSlides(slideIndex = n);
+        }
+        function showSlides(n) 
+        {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) 
+            {
+                slideIndex = 1
+            }    
+            if (n < 1) 
+            {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) 
+            {
+                slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) 
+            {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+        }
+    </script>
+
+
+
+
+    <div class="enter" id="enter">
+       <span class="p1">A cup of coffee on a warm summer day reminds you there's a bright side to every day</span> <br>
+        <span class="p2">Relax. Refresh. Recharge.<br>And</span><br>
+         <span class="p3">"HAVE A COFFEE" </span>
+    </div>
+    <br>
+    <div class="ordernow" id="ordernow">
+        <Button class= "orderbtn" type="button"><a href="Order.html">Order Now</a></Button>
+    </div>
+    <br><br><br>
+    <footer class="socilmedia" id="socialmedia">
+        <a href="https://www.facebook.com/CoffeeWorldIndia/" class="fa fa-facebook"></a>
+        <a href="https://mobile.twitter.com/worldcoffeecafe" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/worldcoffeecafeavl/?hl=en" class="fa fa-instagram"></a>
+    </footer>
+    
+</body>
+</html>
+
+
